@@ -1,10 +1,8 @@
-Here's a sample `README.md` for your PyPI project:
 
----
 
 # Morse to Audio
 
-[![PyPI version](https://badge.fury.io/py/morse-to-audio.svg)](https://badge.fury.io/py/morse-to-audio)
+
 
 A simple Python package that converts Morse code into an audio file. This tool supports customizable frequencies and dot durations to generate Morse code tones.
 
