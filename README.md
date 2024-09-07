@@ -54,25 +54,6 @@ This will generate a `.wav` file with the Morse code for "MAN" and save it to yo
 
 The package uses the `pydub` library to generate sine waves representing the Morse code tones. Each dot, dash, and space is converted into an audio segment and combined into a final output file.
 
-## Development
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/kindahex/morse-to-audio.git
-```
-
-2. Install the necessary dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Run the CLI tool locally:
-
-```bash
-python morse_to_audio_cli.py ".- -.-." --frequency 800 --dot_duration 150
-```
 
 ## License
 
