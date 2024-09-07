@@ -1,1 +1,1 @@
-from .root_infer import morse_to_audio
+from .root_infer import morse-to-audio
