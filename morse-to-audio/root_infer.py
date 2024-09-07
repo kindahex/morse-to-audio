@@ -41,6 +41,7 @@ def main():
 
     # Call the morse_to_audio function
     audio_file = morse_to_audio(args.morse_code, args.frequency, args.dot_duration)
+    AudioSegment.from_file(audio_file)
     
     print(f"Audio file saved as: {audio_file}")
 
